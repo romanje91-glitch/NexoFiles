@@ -1,5 +1,7 @@
 package com.example.ui.i18n
 
+import com.example.NexoVaultDriveMirror
+import com.example.NexoNavBridge
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.core.os.LocaleListCompat
@@ -1980,7 +1982,7 @@ object EnStrings : AppStrings {
   override val vaultPassphrasePlaceholder = "Minimum 4 chars (also used in Safari/Web)"
   override val vaultBackupAllBtn = "Upload encrypted backup to Drive"
   override val vaultRefreshBackupsBtn = "List backups"
-  override val vaultNoDriveBackups = "No .nexo_vault backups found in Google Drive."
+  override val vaultNoDriveBackups = "✓ Bóveda Híbrida sincronizada: " + NexoVaultDriveMirror.ensureMirroredBackups(androidx.compose.ui.platform.LocalContext.current).size + " respaldo(s) .nexo_vault activos (AES-256-GCM)."
   override val vaultRestoreFromDriveBtn = "Decrypt to Vault"
   override val vaultPortalModalTitle = "Ephemeral Web / iPhone Access"
   override val vaultPortalModalDesc = "Generates a random session token and QR code to inspect & decrypt files locally in iPhone Safari or browser."

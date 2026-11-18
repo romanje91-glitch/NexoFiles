@@ -1,5 +1,7 @@
 package com.example
 
+import com.example.NexoNavBridge
+import com.example.NexoSimpleWebBrowserDialog
 import android.graphics.Color as AndroidColor
 import android.os.Bundle
 import android.widget.Toast
@@ -350,6 +352,8 @@ private fun NexoFilesRoot(
   val audioState by audioPlayer.state.collectAsStateWithLifecycle()
 
   BackHandler(enabled = drawerState.isOpen) {
+ if (NexoNavBridge.triggerBack()) return@BackHandler
+
     coroutineScope.launch { drawerState.close() }
   }
 
@@ -643,7 +647,11 @@ private fun NexoFilesRoot(
           }
         }
 
-        Scaffold(
+        
+            if (NexoNavBridge.showWebBrowser) {
+                NexoSimpleWebBrowserDialog(onDismiss = { NexoNavBridge.showWebBrowser = false })
+            }
+            Scaffold(
           containerColor = MaterialTheme.colorScheme.background,
           contentWindowInsets = WindowInsets.safeDrawing,
           snackbarHost = {

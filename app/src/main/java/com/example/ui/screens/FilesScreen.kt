@@ -1,5 +1,8 @@
 package com.example.ui.screens
 
+import com.example.NexoNavBridge
+import android.content.res.Configuration
+import androidx.compose.ui.platform.LocalConfiguration
 import com.example.ui.components.*
 
 import androidx.compose.animation.AnimatedVisibility
