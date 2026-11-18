@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NexoFiles</string>
+    <string name="google_web_client_id" translatable="false">328132416611-q6sqaph265345h78nrujuaj37s4o0v4a.apps.googleusercontent.com</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_files">Archivos</string>
+    <string name="nav_analyze">Análisis</string>
+    <string name="nav_tools">Red y Más</string>
+    <string name="greeting_hello">¡Hola de nuevo!</string>
+    <string name="search_placeholder">Buscar archivos, carpetas, APKs…</string>
+    <string name="internal_storage">Almacenamiento interno</string>
+    <string name="quick_clean">Limpieza rápida</string>
+    <string name="categories_title">Categorías</string>
+    <string name="quick_tools_title">Herramientas rápidas</string>
+    <string name="recent_files_title">Archivos recientes</string>
+    <string name="bookmarks_title">Marcadores</string>
+    <string name="permission_storage_title">Acceso completo al almacenamiento</string>
+    <string name="permission_storage_desc">Concede permiso para explorar carpetas internas, archivos ocultos y gestionar descargas.</string>
+    <string name="grant_permission">Conceder acceso</string>
+</resources>

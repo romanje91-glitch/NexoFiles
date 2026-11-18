@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NexoFiles</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_files">Files</string>
+    <string name="nav_analyze">Analyze</string>
+    <string name="nav_tools">Network &amp; More</string>
+    <string name="greeting_hello">Welcome back!</string>
+    <string name="search_placeholder">Search files, folders, APKs…</string>
+    <string name="internal_storage">Internal storage</string>
+    <string name="quick_clean">Quick clean</string>
+    <string name="categories_title">Categories</string>
+    <string name="quick_tools_title">Quick tools</string>
+    <string name="recent_files_title">Recent files</string>
+    <string name="bookmarks_title">Bookmarks</string>
+    <string name="permission_storage_title">Full storage access</string>
+    <string name="permission_storage_desc">Grant permission to browse internal folders, hidden files, and manage downloads.</string>
+    <string name="grant_permission">Grant access</string>
+</resources>

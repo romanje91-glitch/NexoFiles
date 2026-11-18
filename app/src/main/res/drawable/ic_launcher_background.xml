@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Deep purple radial gradient background -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:centerX="54"
+                android:centerY="50"
+                android:gradientRadius="72"
+                android:type="radial">
+                <item
+                    android:color="#FF1A0F36"
+                    android:offset="0.0" />
+                <item
+                    android:color="#FF120B24"
+                    android:offset="0.58" />
+                <item
+                    android:color="#FF0D071C"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Subtle tactical violet grid lines -->
+    <path
+        android:pathData="M0,18 L108,18 M0,36 L108,36 M0,54 L108,54 M0,72 L108,72 M0,90 L108,90 M18,0 L18,108 M36,0 L36,108 M54,0 L54,108 M72,0 L72,108 M90,0 L90,108"
+        android:strokeWidth="0.65"
+        android:strokeColor="#662D1B54" />
+
+    <!-- Subtle diagonal tactical corner accents -->
+    <path
+        android:pathData="M10,22 L22,10 M86,98 L98,86"
+        android:strokeWidth="1.0"
+        android:strokeColor="#552D1B54"
+        android:strokeLineCap="round" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "NexoFiles",
+  "description": "Explorador y gestor integral de archivos para Android con almacenamiento local, análisis de espacio, bóveda biométrica, red LAN/FTP, servidor web Wi-Fi e integración con Google Drive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
